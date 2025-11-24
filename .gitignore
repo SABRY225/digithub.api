@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# البيئة
+.env
+.env.local
+.env.*.local
+
+# المتغيرات البيئية
+.env.development
+.env.test
+.env.production
+
+# نتائج الاختبار
+coverage/
+.nyc_output/
+
+# نتائج الاختبار
+.mocha_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# نسخ احتياطية
+*.backup
+*.bak
+
+# ملفات مؤقتة
+tmp/
+temp/
+dist/
+
+# ملفات Excel المؤقتة
+~$*.xlsx
